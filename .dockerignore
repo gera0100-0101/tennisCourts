@@ -1,0 +1,18 @@
+# git
+.git
+.gitignore
+
+# node
+**/node_modules
+**/npm-debug.log
+
+# dotnet
+**/bin
+**/obj
+
+# docker
+Dockerfile
+docker-compose.yml
+
+# OS
+.DS_Store

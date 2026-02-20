@@ -1,0 +1,59 @@
+﻿#root {
+    /*max-width: 80%;
+    margin: 0 auto;*/
+    box-sizing: border-box;
+    text-align: center;
+    overflow: visible;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+body {
+    overflow: visible;
+}
+
+/* projectBlockVideo */
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+    .content h2 {
+        margin: 0;
+        font-size: 56px;
+    }
+
+    .content p {
+        margin: 4px 0 0;
+        font-size: 24px;
+    }
+
+@media(max-width: 768px){
+    #root {
+        padding: 0 12px;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-align: center;
+        overflow: visible;
+    }
+}

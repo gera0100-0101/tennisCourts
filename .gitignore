@@ -1,0 +1,9 @@
+.vs/
+<<<<<<< HEAD
+obj/
+*.cache
+=======
+.obj/
+*.cache
+>>>>>>> backup-main
+*.env

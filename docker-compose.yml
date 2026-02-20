@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api:
+    container_name: tennisCourtsApi
+    build:
+      context: .
+      dockerfile: TennisCourts.Server/Dockerfile
+    ports:
+      - "32768:8080"
+    env_file:
+      - .env
+    restart: unless-stopped
+

@@ -1,0 +1,6 @@
+@TennisCourts.Server_HostAddress = http://localhost:5140
+
+GET {{TennisCourts.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
