@@ -34,7 +34,7 @@ export default function Header() {
                 setTicking(true);
             }
         };
-
+        
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, [lastScrollY, ticking]);

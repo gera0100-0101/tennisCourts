@@ -17,7 +17,7 @@ export default function ProjectElement() {
                             <Calendar size={20} />
                             <span>{card.year}</span>
                         </div>
-                        <p className="card-desc">{card.description}</p>
+                        {/*<p className="card-desc">{card.description}</p>*/}
                         <ul className="card-list">
                             {card.features.map((f, idx) => (
                                 <li key={idx} className="card-item"><SquareCheckBig size={20} color="#5DD62C" />{f}</li>
