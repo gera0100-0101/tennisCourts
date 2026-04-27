@@ -112,16 +112,8 @@ docker-compose down
 
 Make sure **Docker** and **Docker Compose** are installed before running the project.
 
-```
-```
-
-
 ---
 
 ## 🧑‍💻 Author
 
 Website developed for the sports construction industry niche.
-
-```
-```
-# tennisCourts
